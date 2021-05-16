@@ -1,0 +1,184 @@
+body {
+	margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #393F3D;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+.main {
+    margin-top: 75px;
+}
+
+.name-user {
+    padding-right: 10px;
+    color: white;
+}
+
+.label {
+    margin-top: 0;
+    padding-top: 0px;
+    margin-left: 68px;
+    margin-bottom: 0px;
+
+    font-family: Aleo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.065em;
+
+    color: #FFFFFF;
+    text-shadow: rgba(253, 0, 0, 0.5) 0px 3px 3px;
+
+}
+
+.label_comment {
+    margin-left: 68px;
+    font-family: Aleo;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 29px;
+    letter-spacing: -0.065em;
+
+    color: #FFFFFF;
+}
+
+.nav {
+    margin: 0;
+    height:319px;
+    background-image: url(../img/js_main.png);
+    position: relative;
+}
+
+.navigation {
+    max-width: 280px;
+    padding-top: 45px;
+    padding-left: 28px;
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation-link:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.navigation-link {
+    text-decoration: none;
+    font-family: Almendra;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+
+    color: #FFFFFF;
+    text-shadow: rgba(0, 0, 0, 0.459) 0px 1px 7px;
+}
+
+.navigation-link:hover {
+    font-size: 26px;
+    color: black;
+}
+
+.elon-mask {
+    position: absolute;
+    right: 96px;
+
+    width: 294px;
+    height: 305px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.java-script-info {
+    background-color: #E8D638;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1400px;
+}
+
+.h2-js {
+    text-align: center;
+
+    font-family: 'Almendra', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 39px;
+
+    color: #FFFFFF;
+    text-shadow: rgb(0, 0, 0) 0px 0px 7px;
+}
+
+.js-info {
+    font-family: 'Almendra', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 39px;
+
+    text-align: left;
+    margin: 30px;
+    text-indent: 30px;
+}
+
+.js-opportunities {
+    background: #393F3D;
+}
+
+.h2-js-title {
+    text-align: center;
+
+    font-family: 'Almendra', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 61px;
+
+    color: #FFFFFF;
+    text-shadow: rgb(0, 0, 0) 0px 0px 7px;
+}
+
+.opportunities-info {
+    padding-left: 30px;
+    padding-right: 30px;
+
+    text-align: left;
+
+    font-family: 'Almendra', serif;
+    color: #FFFFFF;
+
+    font-size: 20px;
+}
+
+.gradient {
+    background: linear-gradient(180deg, #393F3D 0%, #CB5C51 100%);
+    height: 100px;
+}
+
+.opportunities-info:last-child {
+    margin-bottom: 0px;
+    padding-bottom: 0;
+}
+
+.check-js {
+    background-color: #CB5C51;
+    padding: 50px 50px;
+}
